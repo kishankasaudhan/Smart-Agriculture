@@ -1,0 +1,3 @@
+model,mae,rmse,r2
+champion_v1_local,0.4072,0.7719,0.9992
+candidate,0.3998,0.8262,0.9991

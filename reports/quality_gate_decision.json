@@ -1,0 +1,9 @@
+{
+  "primary_metric": "RMSE",
+  "metric_justification": "Selected Primary Metric: Root Mean Squared Error (RMSE). Justification: In agricultural crop yield forecasting, yield predictions guide mission-critical supply-chain, storage, and market pricing commitments. Large prediction errors impose disproportionately severe financial penalties on farming cooperatives. RMSE heavily penalizes large outlier errors via quadratic squaring, making it the most reliable measure of model stability. R\u00b2 is enforced as a secondary guardrail to guarantee that overall explained variance does not regress.",
+  "threshold_min_rmse_improvement": 0.0,
+  "observed_rmse_improvement": -0.0543,
+  "observed_r2_improvement": -0.0001,
+  "decision": "RETAIN_EXISTING_CHAMPION",
+  "champion_overwritten": false
+}
