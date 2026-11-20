@@ -9,3 +9,7 @@ mlruns/
 .env
 models/*.joblib
 !models/.gitkeep
+mlflow.db
+mlflow_old.db
+mlartifacts/
+mlflow/
